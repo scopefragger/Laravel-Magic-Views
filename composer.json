@@ -1,0 +1,22 @@
+{
+  "name": "scopefragger/magic-views",
+  "description": "Magic Views For Laravel 5.1+",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mark jones",
+      "email": "mark@arcade247.co.uk"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "database"
+    ],
+    "psr-4": {
+      "App\\": "app/",
+      "Scopefragger\\MagicViews\\": "packages/Scopefragger/magic-views/src"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {}
+}
